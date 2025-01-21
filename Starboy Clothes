@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starboy Clothes - Tienda en Línea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            color: red;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .producto {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            background-color: #fff;
+        }
+        .producto img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .producto h3 {
+            margin: 1rem 0 0.5rem;
+        }
+        .producto p {
+            color: #555;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .categoria {
+            margin-bottom: 2rem;
+        }
+        .categoria h3 {
+            margin-bottom: 1rem;
+            color: #000;
+        }
+        .subcategoria {
+            margin-top: 1rem;
+            text-align: left;
+        }
+        .subcategoria h4 {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Starboy Clothes</h1>
+        <p>Tu tienda en línea de ropa moderna y elegante</p>
+        <p><em>Wearing Style</em></p>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <main>
+        <h2>Nuestros Productos</h2>
+        <div class="categoria">
+            <h3>Playeras</h3>
+            <div class="subcategoria">
+                <h4>Por Marca</h4>
+                <div class="productos">
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Porsche">
+                        <h3>Porsche</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Ferrari">
+                        <h3>Ferrari</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="McLaren">
+                        <h3>McLaren</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Mercedes">
+                        <h3>Mercedes</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="BMW">
+                        <h3>BMW</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Mustang">
+                        <h3>Mustang</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Personalizar">
+                        <h3>Personalizar</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="subcategoria">
+                <h4>Improve</h4>
+                <div class="productos">
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Colección en curso">
+                        <h3>Colección en curso</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Personalizar">
+                        <h3>Personalizar</h3>
+                    </div>
+                    <div class="producto">
+                        <img src="https://via.placeholder.com/250" alt="Prediseños">
+                        <h3>Prediseños</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="categoria">
+            <h3>Camisas</h3>
+            <div class="productos">
+                <div class="producto">
+                    <img src="https://via.placeholder.com/250" alt="Camisa 1">
+                    <h3>Camisa Casual</h3>
+                    <p>$30.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="categoria">
+            <h3>Sudaderas</h3>
+            <div class="productos">
+                <div class="producto">
+                    <img src="https://via.placeholder.com/250" alt="Sudadera 1">
+                        <h3>Sudadera Estilo Urbano</h3>
+                    <p>$35.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="categoria">
+            <h3>Accesorios</h3>
+            <div class="productos">
+                <div class="producto">
+                    <img src="https://via.placeholder.com/250" alt="Accesorio 1">
+                    <h3>Gorra Starboy</h3>
+                    <p>$15.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Starboy Clothes. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
